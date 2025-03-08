@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .custom-rounded {
+            border-radius: 16px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-6 flex justify-center items-center min-h-screen">
+    <div class="flex space-x-4">
+        <!-- Client Column -->
+        <div class="w-64">
+            <div class="text-xl font-bold mb-4 text-center">CLIENT</div>
+            <div class="space-y-4">
+                <!-- Total Clients -->
+                <div class="bg-white custom-rounded shadow-md flex items-center overflow-hidden">
+                    <div class="w-2 bg-blue-400 h-full rounded-l-lg"></div>
+                    <div class="flex-1 p-4 flex justify-between items-center">
+                        <div class="flex items-center space-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-400" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z"/>
+                            </svg>
+                            <span class="text-gray-700 font-medium">Total Clients</span>
+                        </div>
+                        <span class="text-blue-600 font-bold text-xl">11</span>
+                    </div>
+                </div>
+
+                <!-- Active Clients -->
+                <div class="bg-white custom-rounded shadow-md flex items-center overflow-hidden">
+                    <div class="w-2 bg-green-400 h-full rounded-l-lg"></div>
+                    <div class="flex-1 p-4 flex justify-between items-center">
+                        <div class="flex items-center space-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-400" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z"/>
+                            </svg>
+                            <span class="text-gray-700 font-medium">Active Clients</span>
+                        </div>
+                        <span class="text-green-600 font-bold text-xl">9</span>
+                    </div>
+                </div>
+
+                <!-- Inactive Clients -->
+                <div class="bg-white custom-rounded shadow-md flex items-center overflow-hidden">
+                    <div class="w-2 bg-red-400 h-full rounded-l-lg"></div>
+                    <div class="flex-1 p-4 flex justify-between items-center">
+                        <div class="flex items-center space-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-red-400" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z"/>
+                            </svg>
+                            <span class="text-gray-700 font-medium">Inactive Clients</span>
+                        </div>
+                        <span class="text-red-600 font-bold text-xl">2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Staff Column -->
+        <div class="w-64">
+            <div class="text-xl font-bold mb-4 text-center">STAFF</div>
+            <div class="space-y-4">
+                <!-- Total Staff -->
+                <div class="bg-white custom-rounded shadow-md flex items-center overflow-hidden">
+                    <div class="w-2 bg-blue-400 h-full rounded-l-lg"></div>
+                    <div class="flex-1 p-4 flex justify-between items-center">
+                        <div class="flex items-center space-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-400" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z"/>
+                            </svg>
+                            <span class="text-gray-700 font-medium">Total Staff</span>
+                        </div>
+                        <span class="text-blue-600 font-bold text-xl">35</span>
+                    </div>
+                </div>
+
+                <!-- Active Staff -->
+                <div class="bg-white custom-rounded shadow-md flex items-center overflow-hidden">
+                    <div class="w-2 bg-green-400 h-full rounded-l-lg"></div>
+                    <div class="flex-1 p-4 flex justify-between items-center">
+                        <div class="flex items-center space-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-400" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z"/>
+                            </svg>
+                            <span class="text-gray-700 font-medium">Active Staff</span>
+                        </div>
+                        <span class="text-green-600 font-bold text-xl">21</span>
+                    </div>
+                </div>
+
+                <!-- Inactive Staff -->
+                <div class="bg-white custom-rounded shadow-md flex items-center overflow-hidden">
+                    <div class="w-2 bg-red-400 h-full rounded-l-lg"></div>
+                    <div class="flex-1 p-4 flex justify-between items-center">
+                        <div class="flex items-center space-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-red-400" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z"/>
+                            </svg>
+                            <span class="text-gray-700 font-medium">Inactive Staff</span>
+                        </div>
+                        <span class="text-red-600 font-bold text-xl">1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Optional interactivity
+        document.addEventListener('DOMContentLoaded', () => {
+            const cards = document.querySelectorAll('.bg-white');
+            
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', () => {
+                    card.classList.add('scale-105', 'transition', 'transform', 'duration-300', 'ease-in-out', 'shadow-xl');
+                });
+                
+                card.addEventListener('mouseleave', () => {
+                    card.classList.remove('scale-105', 'transition', 'transform', 'duration-300', 'ease-in-out', 'shadow-xl');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
